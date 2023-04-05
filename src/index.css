@@ -1,0 +1,160 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+  background-color: #FFFFF1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.favButton {
+  background-color: rgba(136, 136, 136, 0.116);
+  padding: 4px;
+  border-radius: 8px solid #000;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(136, 136, 136);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #282c34;
+}
+
+.imagen-dh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.imagen-dh>img {
+  width: 8rem;
+  margin: 0;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+  border-radius: 16px;
+  color: #fff;
+  width: 200px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card:hover {
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+.card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 90vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.doctor-avatar {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+  border: 1px solid #ccc;
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-content: left;
+  text-align: left;
+  align-items: left;
+  flex-direction: row;
+}
+
+td,
+th {
+  color: #000;
+  border: 1px solid #000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+[data-base-theme="dark"] body {
+  background-color: #282c34;
+  color: #fff;
+}
+[data-base-theme="dark"] .navbar {
+  background-color: #c7b3f4;
+}
+
+[data-base-theme="dark"] .card {
+  background-color: #fff;
+  color: #000;
+}
+
+[data-base-theme="dark"] .card>a {
+  color: #000;
+}
+
+
+[data-base-theme="dark"]
+th {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+[data-base-theme="dark"]
+td {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+
