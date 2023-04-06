@@ -114,6 +114,15 @@ table {
   align-items: left;
   flex-direction: row;
 }
+.navbar-nav{
+  display: flex;
+  justify-content: space-between;
+  align-content: left;
+  text-align: left;
+  align-items: left;
+  flex-direction: row;
+  font-size: 20px;
+}
 
 td,
 th {
